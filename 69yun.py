@@ -65,7 +65,7 @@ def fetch_and_extract_info(domain,headers):
 
 def generate_config():
     # 获取环境变量
-    domain = os.getenv('DOMAIN', 'https://69yun69.com')  # 默认值，如果未设置环境变量
+    domain = os.getenv('DOMAIN', 'https://www.fawncloud.one')  # 默认值，如果未设置环境变量
     bot_token = os.getenv('BOT_TOKEN')
     chat_id = os.getenv('CHAT_ID')
 
